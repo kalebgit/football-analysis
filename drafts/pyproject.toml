@@ -1,0 +1,26 @@
+[project]
+name = "drafts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "awswrangler>=3.17.1",
+    "boto3[crt]>=1.43.118",
+    "matplotlib>=3.11.2",
+    "nflreadpy>=0.1.5",
+    "numpy>=2.5.4",
+    "polars>=2.0.0",
+    "pyarrow>=25.0.1",
+    "rich>=15.0.0",
+    "s3fs>=0.4.2",
+    "scikit-learn>=1.9.1",
+    "statsmodels>=0.15.0",
+    "tqdm>=4.70.1",
+    "xgboost>=3.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "types-boto3[s3]>=1.43.118",
+]
